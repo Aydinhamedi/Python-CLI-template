@@ -11,7 +11,7 @@ from datetime import datetime
 from PrintColor.Print_color import print_Color
 #global vars>>>
 #CONST SYS
-CLI_NAME = 'temp'
+CLI_NAME = '`CHANGE THE NAME`' # your CLI name
 CLI_Ver = '0.00' # your CLI ver
 # ...
 #normal global
