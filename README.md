@@ -21,7 +21,7 @@
 This project is a template for a Python Command Line Interface (CLI) application. It includes a cmd file that checks the Python version, installs packages, and more. The Python file is a colorful CLI template that you can easily add commands to and customize. It includes some base commands as well.
 The CLI also includes error handling, which can provide detailed error messages when something goes wrong.
 
-### [Go to doc](doc.md)
+> ### [**Doc**](doc.md)
 
 ## Features
 
