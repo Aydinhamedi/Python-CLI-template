@@ -5,7 +5,7 @@
 
 ![Example](Screenshot.png)  
 
-> # :warning: **WARNING**
+> **Note**\
 >  Please note that this image is for a project using the template.
 
 This is a Python-based Command Line Interface (CLI) template. It's designed to be interactive and user-friendly, providing a variety of commands for users to interact with the system. You can customize this template to suit your needs by modifying the global variables, helper functions, and command functions.
