@@ -50,7 +50,8 @@ from datetime import datetime
 from PrintColor.Print_color import print_Color
 ```
 
-> **Warning**: Do not remove any of the existing imports.
+> **Warning**\
+> Do not remove any of the existing imports.
 
 ### Defining Global Variables
 
@@ -86,7 +87,8 @@ Add functions for any commands your CLI supports:
 # ...
 ```
 
-> **Note**: A help function is included by default.
+> **Note**\
+> A help function is included by default.
 
 ### Defining Commands
 
