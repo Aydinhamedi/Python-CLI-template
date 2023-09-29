@@ -1,4 +1,5 @@
-# CLI Template Documentation
+# Python CLI Template
+<img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"/>
 
 This is a Python-based Command Line Interface (CLI) template. It's designed to be interactive and user-friendly, providing a variety of commands for users to interact with the system. You can customize this template to suit your needs by modifying the global variables, helper functions, and command functions.
 
