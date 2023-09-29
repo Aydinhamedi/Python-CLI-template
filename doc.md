@@ -1,5 +1,9 @@
 # Usage doc
 
+>  **Warning**\
+>  Please note that this code uses my print_color\
+>  for more info go to https://github.com/Aydinhamedi/Python-color-print.
+
 ## 1. Configuring `CLI.cmd`
 
 Start by setting up the configuration to suit your needs. You can do this by modifying the following lines:
@@ -22,7 +26,7 @@ set python_min_VER=6
 
 Next, specify the Python packages your project requires in `Data\requirements.txt`. For example:
 
-```python
+```requirements
 numpy
 keras
 Pillow
@@ -46,7 +50,8 @@ from datetime import datetime
 from PrintColor.Print_color import print_Color
 ```
 
-> **Warning**: Do not remove any of the existing imports.
+> **Warning**\
+> Do not remove any of the existing imports.
 
 ### Defining Global Variables
 
@@ -82,7 +87,8 @@ Add functions for any commands your CLI supports:
 # ...
 ```
 
-> **Note**: A help function is included by default.
+> **Note**\
+> A help function is included by default.
 
 ### Defining Commands
 
