@@ -41,9 +41,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Usage
 
-After installation, you can run the CLI application with the `CLI.cmd`
+After installation, you can run the CLI application with the `CLI.cmd` and customize the CLI with `Data\CLI_main.py` file
 
 This will start the CLI application where you can use the available commands.
+
 
 ## License
 
