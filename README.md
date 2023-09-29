@@ -1,6 +1,8 @@
 # Python CLI Template
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"/>
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ### Example usage:
 
 ![Example](Screenshot.png)  
@@ -13,7 +15,7 @@
 
 This project is a template for a Python Command Line Interface (CLI) application. It includes a cmd file that checks the Python version, installs packages, and more. The Python file is a colorful CLI template that you can easily add commands to and customize. It includes some base commands as well.
 
-The CLI also includes robust error handling, which can provide detailed error messages when something goes wrong.
+The CLI also includes error handling, which can provide detailed error messages when something goes wrong.
 
 ## Features
 
@@ -41,9 +43,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Usage
 
-After installation, you can run the CLI application with the `CLI.cmd`
+After installation, you can run the CLI application with the `CLI.cmd` and customize the CLI with `Data\CLI_main.py` file
 
 This will start the CLI application where you can use the available commands.
+
 
 ## License
 
