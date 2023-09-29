@@ -1,5 +1,5 @@
 @echo off
-::CONF
+REM CONF
 set CLI_NAME="CHANGE THE NAME" 
 set python_min_VER=9
 ::MAIN CODE
