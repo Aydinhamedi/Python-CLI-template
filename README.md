@@ -1,6 +1,8 @@
 # Python CLI Template
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"/>
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ### Example usage:
 
 ![Example](Screenshot.png)  
