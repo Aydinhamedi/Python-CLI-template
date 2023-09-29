@@ -1,5 +1,9 @@
 # Usage doc
 
+>  **Warning**\
+>  Please note that this code uses my print_color\
+>  for more info go to https://github.com/Aydinhamedi/Python-color-print.
+
 ## 1. Configuring `CLI.cmd`
 
 Start by setting up the configuration to suit your needs. You can do this by modifying the following lines:
