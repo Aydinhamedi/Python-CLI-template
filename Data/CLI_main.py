@@ -2,11 +2,9 @@
 print('Loading the CLI...', end='\r')
 #pylib
 import os
-import re
 import sys
 import difflib
 import traceback
-import subprocess
 from datetime import datetime
 from PrintColor.Print_color import print_Color
 #global vars>>>
