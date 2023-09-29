@@ -30,7 +30,7 @@ The CLI also includes error handling, which can provide detailed error messages 
 - Easy command addition and customization
 - Colorful CLI interface
 - Base commands included
-- error handling
+- Error handling
 
 ## Getting Started
 
