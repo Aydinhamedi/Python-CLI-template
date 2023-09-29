@@ -22,7 +22,7 @@ set python_min_VER=6
 
 Next, specify the Python packages your project requires in `Data\requirements.txt`. For example:
 
-```python
+```requirements
 numpy
 keras
 Pillow
