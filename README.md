@@ -17,6 +17,9 @@
 >  Please note that this code uses my print_color\
 >  for more info go to https://github.com/Aydinhamedi/Python-color-print.
 
+>  **Warning**\
+>  Please note that a new version is coming that is a toolkit.
+
 
 This project is a template for a Python Command Line Interface (CLI) application. It includes a cmd file that checks the Python version, installs packages, and more. The Python file is a colorful CLI template that you can easily add commands to and customize. It includes some base commands as well.
 The CLI also includes error handling, which can provide detailed error messages when something goes wrong.
