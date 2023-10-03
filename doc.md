@@ -123,10 +123,13 @@ Finally, add functionality for each command in the main function:
 ```python
 #main
 def main():
+    #global
+    global Debug_m
     #CLI loop
     while True: #WT
         #input manager
         input_array = CLI_IM()
+        Debug('Input command', input_array) # Debug example usage
         match input_array[0]: #MI
             case 'help':
                 CI_help() 
@@ -135,6 +138,9 @@ def main():
             case 'clear':
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print(CLI_Info)
+            case 'debug':
+                print('Debug mode is ON...')
+                Debug_m = True
             case 'exit':
                 raise KeyboardInterrupt
             case _:
