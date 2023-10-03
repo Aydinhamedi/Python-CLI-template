@@ -19,6 +19,12 @@ Debug_m = False
 #other
 # ...
 #HF>>>
+#Debug
+def Debug(ID, DEBUG_IF, SFL: bool = True):
+    if Debug_m:
+        frame_info = inspect.currentframe()
+        location = f'{inspect.stack()[1].filename}:{frame_info.f_back.f_lineno}' if SFL else f'L:{frame_info.f_back.f_lineno}'
+        print_Color(f'\n~*--> ~*DEBUG INFO id: ~*[{str(ID)}]~*, Location: ~*[{location}]~*, time: ~*[{datetime.now().strftime("%Y/%m/%d | %H:%M:%S")}]\n~*--> ~*Data: ~*{str(DEBUG_IF)}\n~*--> ~*Data Type: ~*{type(DEBUG_IF)}\n', ['red', 'magenta', 'yellow', 'magenta', 'yellow', 'magenta', 'yellow', 'red', 'magenta', 'yellow', 'red', 'magenta', 'yellow'], advanced_mode=True)
 # ... (helper funcs)
 #CF>>>
 #CI_help
@@ -109,12 +115,6 @@ def IEH(id: str = 'Unknown', stop: bool = True, DEV: bool = True):
             print_Color('detailed error message:', ['yellow'])
             traceback.print_exc()
     if stop: sys.exit('SYS EXIT|ERROR: Internal|by Internal Error Handler')
-#Debug
-def Debug(ID, DEBUG_IF, SFL: bool = True):
-    if Debug_m:
-        frame_info = inspect.currentframe()
-        location = f'{inspect.stack()[1].filename}:{frame_info.f_back.f_lineno}' if SFL else f'L:{frame_info.f_back.f_lineno}'
-        print_Color(f'\n~*--> ~*DEBUG INFO id: ~*[{str(ID)}]~*, Location: ~*[{location}]~*, time: ~*[{datetime.now().strftime("%Y/%m/%d | %H:%M:%S")}]\n~*--> ~*Data: ~*{str(DEBUG_IF)}\n~*--> ~*Data Type: ~*{type(DEBUG_IF)}\n', ['red', 'magenta', 'yellow', 'magenta', 'yellow', 'magenta', 'yellow', 'red', 'magenta', 'yellow', 'red', 'magenta', 'yellow'], advanced_mode=True)
 #main
 def main():
     #global
@@ -123,7 +123,7 @@ def main():
     while True: #WT
         #input manager
         input_array = CLI_IM()
-        Debug('Input command', input_array)
+        Debug('Input command', input_array) # Debug example usage
         match input_array[0]: #MI
             case 'help':
                 CI_help() 

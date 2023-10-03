@@ -99,6 +99,7 @@ Define the commands your CLI supports:
 command_tuple = (
     'help', # help
     'exit', # Quit the CLI
+    'debug', # debug (hidden command for `Debug` func)
     'clear' # Clear the CLI
 )
 ```
